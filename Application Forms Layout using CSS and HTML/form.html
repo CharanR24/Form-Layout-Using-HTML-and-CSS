@@ -1,0 +1,103 @@
+<html>
+<head>
+</head>
+<body>
+<form action="end.html" method="post">
+<fieldset style="background-color: #eeeeee;
+  font-family:Courier New;">
+<legend style="  background-color: gray;
+  color: white;"><h1>Application Form for Student Engineering Counselling:</h1></legend>
+<br>
+<div>
+<label for="fname">First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+<input type="text" name="fname" id="fname" placeholder="First Name" required>
+</div>
+<br>
+<div>
+<label for="lname">Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp: </label>
+<input type="text" name="lname" id="lname" placeholder="Last Name" required>
+</div>
+<br>
+<div>
+<label for="email">Email ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp: </label>
+<input type="email" name="email" id="email" placeholder="Email ID" required>
+</div>
+<br>
+<div>
+<label for="phone">Contact Number &nbsp;&nbsp: </label>
+<input type="tel" name="phone" id="phone" placeholder="Phone No" required>
+</div>
+<br>
+<div>
+<label for="date">Date Of birth &nbsp;&nbsp&nbsp;: </label>
+<input type="date" name="date" id="date" placeholder="date" max="2002-06-01"required>
+</div>
+<br>
+<div>
+<label for="age">Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp:</label>
+<input type="number" name="age" id="age" placeholder="Age" min="18" max="50" required>
+</div>
+<br>
+Gender:
+<div>
+<input type="radio" name="Gender" id="male">
+<label for="male">Male </label>
+</div>
+<br>
+<div>
+<input type="radio" name="Gender" id="female">
+<label for="female">Female </label>
+</div>
+<br>
+Graduation:
+<br><br>
+<div>
+<label for="degree">Degree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp:</label>
+  <input type="text" id="degree" name="degree" value="Bachelor of Engineering" disabled><br>
+</div>
+<br>
+<div>
+<label for="course">Choose the Programme:</label>
+<select id="course" name="course">
+  <option value="cse">Computer Science and Engineering</option>
+  <option value="eee">Electrical and Electronic Engineering</option>
+  <option value="ece">Electronics and Communication Engineering</option>
+  <option value="it">Information and Technology</option>
+  <option value="mech">Mechanical Engineering</option>
+  <option value="bme">Biomedical Engineering</option>
+  <option value="civ">Civil Engineering</option>
+  <option value="Aero">Aeronautical Engineering</option>
+  <option value="ei">Electronics and Instrumentation Engineering</option>
+  <option value="au">Automation and Robotics Engineering</option>
+</select>
+</div>
+<br>
+Disable Student:
+<br>
+<div>
+  <input type="checkbox" id="dis1" name="dis1" value="Disable">
+  <label for="dis"> Yes </label><br>
+  <input type="checkbox" id="nodis" name="notdis" value="Disable">
+  <label for="notdis"> No </label><br>
+</div>
+<br>
+If diability or any medical Issue Can you mention the full details reg:
+<div>
+<textarea name="message" rows="10" cols="50">
+Eg.
+Percentage of Disability:
+What kind of Disability:
+</textarea>
+</div>
+<br>
+<div>
+<label for="file">Upload Marksheet :</label>
+<input type="file" name="file" id="file" required>
+</div>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</fieldset>
+</form>
+</body>
+</html>
